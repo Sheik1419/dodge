@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       
+        #one{
+            width: 100%;
+            height: 485px;
+            position: relative;
+        }
+        p{
+            justify-content: center;
+        }
+        nav li  :hover{
+            text-decoration: underline red;
+        }
+        #sectionout{
+            text-align: center;
+            width: 95%;
+            margin-left: 2.5%;
+            height: 100px;
+            background-color: white;
+            padding: 0px;
+        }
+        #section3{
+            width: 100%;
+            height: 300px;
+            display: flex;
+        }
+        span{
+            font-size: x-small;
+        }
+        #ban{
+            width: 100%;
+            position: absolute;
+        }
+        #banconi{
+            width: 150px;
+            margin-top: 40px;
+            
+        }
+        button{
+            background-color: red;
+            color: white;
+
+        }
+        
+        #section2{
+            width: 95%;
+            margin-left: 2.5%;
+            height: 275px;
+        }
+        #bancon{
+            background-color: rgba(0, 0, 0, 0.696);
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 50px;
+            color: white;
+            font-size: medium;
+            z-index: 1;
+        }
+        #bancon1{
+            background-color: rgba(0, 0, 0, 0.696);
+            width: 300px;
+            height: 150px;
+            margin-top: 100px;
+            text-align: center;
+            position: absolute;
+            z-index: 1;
+            margin-left:100px ;
+            color: white;
+        }
+        #bancon1i{
+            position: absolute;
+            width: 95%;
+            height: 300px;
+
+        }
+        
+        .bd{
+            width: 25%;
+            text-align: center;
+        }
+        #icon{
+            width: 150px;
+            height: 20px;
+            margin-top:25px;
+            
+        }
+        nav{
+            display: flex;
+            background-color: black;
+            color: white;
+            justify-content: space-between;
+            width: 95%;
+            margin-left: 2.5%;
+            height: 100px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-evenly;
+        }
+        #nav1{
+            width: 100%;
+            margin-top: 15px;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: black;
+        }
+        .blanki{
+            width: 100%;
+        }
+        #sectionlarge{
+            height: 750px;
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: white;
+        }
+        #sectionlarge1{
+            height: 450px;
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: #fff;
+        }
+        #ban2{
+            width: 95%;
+            height: 430px;
+            margin-top: 0px;
+            position: absolute;
+        }
+        #ban3{
+            width: 100%;
+            height: 430px;
+            margin-top: 430px;
+            position: absolute;
+        }
+        #ban4{
+            width: 95%;
+            height: 430px;
+            margin-top: 30px;
+            position: absolute;
+        }
+        #ban2con{
+            background-color: rgba(0, 0, 0, 0.326);
+            width: 800px;
+            height: 150px;
+            margin-top: 100px;
+            position: absolute;
+            color: white;
+            text-align: center;
+            margin-left: 20%;
+        }
+        #sectioncont{
+            width: 500px;
+            height: 300px;
+            position: absolute;
+            background-color: black;
+            margin-top: 60PX;
+            margin-left: 900px;
+            color: white;
+            text-align: center;
+        }
+        .button{
+            display: flex;
+        }
+        .button11{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        #sectionlarge2{
+            height: 550px;
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: #fff;
+            display: flex;
+        }
+        .secdiv{
+            width: 50%;height: 500px; 
+        }
+        #secimg{
+            width: 500px; margin-left: 200px;
+        }
+        #secimg1{
+            width: 500px; margin-left: 20px;
+        }
+        #secimc{
+            width: 500px;margin-left: 200px; text-align: center;
+        }
+        #secimc1{
+            width: 500px; text-align: center;
+        }
+        #secimc button,#secimc1 button{
+            background-color: #fff;
+            color: red;
+            border: 2px solid red;
+            height: 35px;
+            width: 250px;
+        }
+        #sectionlarge3{
+            height: 450px;
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: #fff;
+        }
+        #sectioncont1{
+            width: 500px;
+            height: 200px;
+            position: absolute;
+            background-color: black;
+            margin-top: 100px;
+            margin-left: 10px;
+            color: white;
+            text-align: center;
+        }
+        #sectioncont img{
+            width:150px
+        }
+        #slimg{
+            width: 150px; margin-top: 50px;
+        }
+        #sectionlarge12{
+            height: 400px;
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: #fff;
+            text-align: center;
+        }
+        #sectionlarge12 button{
+            background-color: #fff; color: brown;border: 1px solid brown;
+            height: 30px;
+        }
+        #para{
+            background-color: #fff;
+            color: black;text-align: end;
+            margin-top: 10px;
+            height: 30px;
+        }
+        #sedivv{
+            text-align: center;font-size: large;
+        }
+        footer{
+            width: 100%;
+            height: 30px;
+            background-color:black;
+            color: #fff;
+        }
+        #footdiv1{
+            background-color: rgb(53, 52, 52); height: 80px;
+            
+        }
+        #footli{
+            padding-top: 10px;
+        }
+        #footcont2{
+            display: flex; width: 90%;justify-content: space-around;margin-left: 10%;
+        }
+        .footdiv2{
+            width: 100%;height: 450px;text-align: left;
+        }
+        .footdiv2 li{
+            list-style-type: none;
+            line-height: 40px;
+            text-align: left;
+            
+        }
+        
+        .footdiv4{
+            width: 100%;height: 225px;text-align: left;
+        }
+        i{width: 40px;
+        }
+        @media screen and (max-width:380px){
+            #one{
+            width: 100%;
+            height: 355px;
+            position: relative;
+        }
+        #ban2con{
+            background-color: rgba(0, 0, 0, 0.853);
+            width: 80%;
+            height: 250px;
+            margin-top: 80px;
+            position: absolute;
+            color: white;
+            text-align: center;
+            margin-left: 10%;
+        }
+        
+        footer{display: none;
+        }
+            nav{
+                display: none;
+            }
+            #ban{
+            width: 100%;
+            position: relative;
+    
+        }
+        
+        #bancon{
+            background-color: rgba(0, 0, 0, 0.696);
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            position: relative;
+            margin-top: 0px;
+            margin-left: 0px;
+            color: white;
+            font-size: medium;
+        }
+        #banconi{
+            width: 150px;
+            margin-top: 0px;
+            
+        }
+        #section2{
+            width: 100%;
+            height: 400px;
+            position: relative;
+            margin-top: 0px;
+        }
+        #bancon1{
+            background-color: rgba(0, 0, 0, 0.696);
+            width: 300px;
+            height: 150px;
+            margin-top: 0px;
+            text-align: center;
+            position: absolute;
+            z-index: 1;
+            margin-left:0px ;
+            color: white;
+        }
+        #bancon1i{
+            position: relative;
+            width: 100%;
+            height: 250px;
+
+        }
+        .blanki{
+            width: 100%;
+        }
+        #sectionlarge{
+            height: 1650px;
+            width: 100%;
+            background-color: white;
+        }
+        
+        #section3{
+            width: 100%;
+            height: 1150px;
+            display: block;
+        }
+        #sectionlarge1{
+            height: 750px;
+            width: 95%;
+            margin-left: 2.5%;
+            background-color: black;
+        }
+        
+        #sectioncont{
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            background-color: black;
+            margin-top: 450PX;
+            margin-left: 0px;
+            color: white;
+            text-align: center;
+        }
+        
+        #ban2{
+            width: 100%;
+            height: 430px;
+            margin-top: 0px;
+            position: absolute;
+        }
+        .bd{
+            width: 100%;
+            text-align: center;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="para" >Sign In / Create an Account</div>
+    <nav>
+        <img id="icon" src="dodgeimg/logo-dodge.png" alt="">
+        <div id="nav1" >
+            <ul>
+               <li>VEHICLES</li>
+               <li>SHOPPING TOOLS</i>
+               </li>
+               <!-- <li> DODGE MUSCLES  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+               </li> -->
+               <li> <a href="dodgegarage.html">DODGE MUSCLES </a>
+               </li>
+               <li>OWNERS
+               </li>
+               <li> DODGE GARAGE</li>
+               <li>DODGE POWER BRAKERS 
+               </li>
+               |<br>|
+               <li>
+                <i style="width: 10px;" class="fa fa-map-marker" aria-hidden="true"></i>
+                FIND A <br> &nbsp; DEALER</li>
+                <li>
+                    <i style="width: 10px;"class="fa fa-shopping-cart" aria-hidden="true"></i>
+                &nbsp;SHOP <br> &nbsp;&nbsp;&nbsp;&nbsp;ONLINE</li>
+                <li> <a href="dodgebuild.html">
+                    <i style="width: 10px;" class="fa fa-wrench" aria-hidden="true"></i>&nbsp;
+                    BUILD & <br> &nbsp;&nbsp;&nbsp; PRICE</li></a>
+        </div>
+    </nav>
+    <section id="one">
+        <img id="ban" src="dodgeimg/banimg.jpg" alt="">
+        <div id="bancon">
+            <img id="banconi" src="dodgeimg/RKN-logo-mobile.png" alt="">
+            <h1>RELEIVE ROADKILL NIGHTS <br>AND ROCK ON</h2>
+        <button id="b1">ROADKILL NIGHTS HIGHLIGHTS &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+    </section>
+    <section id="section2">
+        <img id="bancon1i" src="dodgeimg/hornet1.jpg" alt="">
+        <div id="bancon1">
+            <h1>THE ALL-NEW <br> DODGE HORNET</h1>
+        <button>EXPLORE HORNET &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+    </section>
+    <section id="sectionout">
+    <p>
+    <H6>Current Offers for 63630 <strong>Change ZIP</strong></H6>
+    <h3>DODGE PERFORMANCE VEHICLES</h3>
+    </P>
+</section>
+   <section id="sectionlarge"> 
+    <div id="section3">
+        <div class="bd" ><img class="blanki" src="dodgeimg/iris.png" alt=""> <strong>2023 HORNET</strong> <br><span> MSRP* STARTING AT</span> <br> <strong> $30,725</strong></div>
+        <div class="bd" ><img class="blanki" src="dodgeimg/iris (1).png" alt=""><strong>2023 CHARGER </strong><br> <span> MSRP* STARTING AT </span><br> <strong> $34,230</strong></div>
+        <div class="bd" ><img class="blanki" src="dodgeimg/iris (2).png" alt=""><strong>2023 CHALLENGER</strong><br> <span>MSRP* STARTING AT</span> <br><strong>$31,965</strong></div>
+        <div class="bd" ><img class="blanki" src="dodgeimg/iris (3).png" alt=""><strong>2023 DURANGO</strong><br> <span>MSRP* STARTING AT</span> <br><strong>$40,140</strong></div>
+    </div>
+    <img id="ban2" src="dodgeimg/Tablet_KBB_Banner_Adjusted.jpg" alt="">
+    <div id="ban2con">
+        <h4>DODGE WINS 2022 KELLEY BLUE BOOK'S KBB.COM BEST CAR <br> STYLING BRAND IMAGE AWARD</h2>
+        <p>The Dodge Brand’s performance-inspired, high-impact heritage design cues are once again garnering <br> accolades, this time with Kelley Blue Book’s KBB.com naming Dodge a Best Car styling Brand in its <br> 2022 Brand image Awards - the fourth consecutive honor for the Dodge Brand</p>
+    </div>
+    </section>
+    <section id="sectionlarge1">
+        <img id="ban2" src="dodgeimg/tire.jpg" alt="">
+        <div id="sectioncont">
+            <img style="width: 300px;"src="dodgeimg/icon.png" alt="">
+            <h2>NOW OPEN - DIRECT <br> CONNECTION BROUGHT TO <br> YOU BY DODGE POWER <br> BROKERS</h2>
+            <p>Dodge Power Brokers-Certified Performance dealers <br> factory trained to handle all of your Performancesales, <br> service and Direct Connection Parts needs.</h6>
+            <div class="button1">
+            <button class="button11"> PLAY VIDEO&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+            <button class="button11">LEARN MORE&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+        </div>
+    </section>
+    <section id="sectionlarge2">
+        <div class="secdiv">
+            <img id="secimg" src="dodgeimg/dodgemuscle.jpg" alt="">
+            <div id="secimc">
+            <h4>DODGE MUSCLE</h4>
+            <P>Visit Dodge Muscle for the latest news on power and performance. <br> Check out everything from action-packed videos to downloadable <br> wallpapers. <br> <br> 
+            <button>EXPLORE DODGE MUSCLE&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button></P>
+        </div>
+        </div>
+        <div class="secdiv">
+            <img id="secimg1" src="dodgeimg/wheel.jpg" alt="">
+            <div id="secimc1">
+            <h4>DODGE SRT HUB</h4>
+            <P>Power,Performance, and style are the pillars of the Dodge SRT lineup. <br> Visit our SRT hub for info on the high-octane muscle that Dodge is <br> Known for.</P>
+            <button>EXPLORE SRT HUB &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+        </div>
+    </section>
+    <section id="sectionlarge3">
+        <img id="ban2" src="dodgeimg/shirt.jpg" alt="">
+        <div id="sectioncont1">
+            <img src="dodgeimg/aml.png" alt="">
+            <p>Shop authentic Dodge Brand gear specifically <br> designed for you to live your life with passion. <br> Join the Brotherhood of Muscle today.</p>
+            <div class="button1">
+            <button class="button11"> SHOP NOW &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+        </div>
+    </section>
+    <section id="sectionlarge3">
+        <div id="sedivv"> <strong>BRING THE DEALER TO YOUR DRIVEWAY</strong> </div>
+        <img id="ban4" src="dodgeimg/three.jpg" alt="">
+        <div id="sectioncont1">
+            <img src="dodgeimg/eshop-logo-white.png" alt="">
+            <P>The Dodge E-Shop Program now delivers the complete dealership <br> experience online , from vehicle inventory to finance. Home delivery <br> is available through participating dealerships.</P>
+            <div class="button1">
+            <button class="button11"> LEARN MORE&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+            <button class="button11"> SHOP ONLINE&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>        </div>
+        </div>
+    </section>
+    <section id="sectionlarge12">
+        <img  id="slimg" src="dodgeimg/blue.png" alt="">
+            <h1>SEE YOUR VEHICLE'S TRADE-IN VALUE</h1>
+            <p>Find out how much your current vehicle is worth from the independent Kelley Blue Book(KBB). KBB <br> bases their values on actual transactions and adjusts them as market conditions change. </p>
+            <button id="slb">CHECK YOUR TRADE-IN VALUE&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+    </section>
+    <footer>
+        <section id="footdiv1">
+
+            <div id="content">
+                <ul  style="margin-top: 0px;">
+                    <li ><h5></h5><img style="width: 100px;" src="dodgeimg/drive.png" alt=""></li>
+                    <li ><h5></h5>Contact us</li>
+                    <li ><h5></h5>site maps</li>
+                    <li ><h5></h5>Careers</li>
+                    <li ><h5></h5>Find your country</li>
+                    <li ><h5></h5>Espanol</li>
+                    <li ><h5></h5><input type="text"><button>search</button></li>
+                </ul>
+            </div>          
+        </section>
+        
+        <section id="footcont2">
+            <div class="footdiv2">
+            <strong><h5>VEHICLES</h6></strong>
+            <li>Hornet</li>
+            <li>Charger</li>
+            <li>Challenger</li>
+            <li>Durango</li>
+            <li>SRT</li>     
+        </div>
+            <div class="footdiv2"><strong><h5>RESEARCH</h6></strong>
+                <li>Build & Price</li>
+                <li>Compare Model</li>
+                <li>Warranty</li>
+                <li>Get a Broucher</li>
+                <li>Dodge Brand Muscle Car</li>
+            </div>
+            <div class="footdiv2" ><strong><h5>DODGE ENTHUSIASTS</h6></strong>
+                <li>Radford Racing School</li>
+                <li>Dodge Garage</li>
+                <li>Commercials</li>
+                <li>Dodge Muscle</li>
+            </div>
+            <div class="footdiv2" ><strong><h5>MY ACCOUNT</h6></strong>
+                <li>My Dashboard</li>
+                <li>My Inventory</li>
+                <li>My Builds</li>
+                <li>My Searches</li>
+                <li>My Profile</li>
+            </div>
+            <div class="footdiv2" ><strong><h5>SUPPORT</h6></strong>
+            <li><img src="dodgeimg/uconnect.png" alt=""></li>
+            <li><img src="dodgeimg/siriusXM-80px.png" alt=""></li>
+            <li><strong><h5>FOLLOW US</h5></strong></li>
+                <li><i class="fa fa-instagram" style="font-size: 30px; color:white;background-color:black"></i><i class="fa fa-twitter" style="font-size: 30px; color:white;background-color:black" aria-hidden="true"></i><i class="fa fa-facebook" style="font-size: 30px; color:white;background-color:black" aria-hidden="true"></i><i class="fa fa-youtube" style="font-size: 30px; color:white;background-color:black" aria-hidden="true"></i></li>
+                <li><img src="dodgeimg/dodgegarage.png" alt=""></li>
+            
+            <!-- <div id="footdiv4"> -->
+            </div>
+            <!-- </div> -->
+            
+        </section>
+    </footer>
+</body>
+</html>
